@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X O Game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Assets/alertify.min.css"/>
+    <!-- Animate CSS -->
+     <link rel="stylesheet" href="./Assets/animate.min.css">
+  </head>
+  <body>
+    <div id="all-content">
+      <div id="main-content">
+        <div id="header-and-board-wrapper">
+          <div id="header">
+            <h2 class="instruction" id="turns">X Turns</h2>
+          </div>
+          <!-- BOORD -->
+          <div id="grid-container">
+            <div
+              id="f9"
+              class="square"
+              value="1"
+              style="border-top: none; border-left: none"
+            >
+              <h3 class="square-content"></h3>
+            </div>
+            <div class="square" id="f8" value="2" style="border-top: none">
+              <h3 class="square-content" ></h3>
+            </div>
+            <div
+              id="f1"
+              class="square"
+              value="3"
+              style="border-top: none; border-right: none"
+            >
+              <h3 class="square-content"></h3>
+            </div>
+            <div class="square" id="f2" value="4" style="border-left: none">
+              <h3 class="square-content"></h3>
+            </div>
+            <div class="square" id="f3" value="5">
+              <h3 class="square-content"></h3>
+            </div>
+            <div class="square" id="f4" value="6" style="border-right: none">
+              <h3 class="square-content"></h3>
+            </div>
+            <div
+              id="f5"
+              class="square"
+              value="7"
+              style="border-left: none; border-bottom: none"
+            >
+              <h3 class="square-content"></h3>
+            </div>
+            <div class="square" id="f6" value="8" style="border-bottom: none">
+              <h3 class="square-content"></h3>
+            </div>
+            <div
+              id="f7"
+              class="square"
+              value="9"
+              style="border-right: none; border-bottom: none"
+            >
+              <h3 class="square-content"></h3>
+            </div>
+          </div>
+        </div>
+        <button id="reset-Btn" class="btn">Reset</button>
+      </div>
+    </div>
+    <script src="./XOX.js"></script>
+    <script src="./alertify.min.js"></script>
+  </body>
+</html>
+
